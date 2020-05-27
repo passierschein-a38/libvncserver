@@ -68,5 +68,9 @@ build_script:
 artifacts:
  - path: build
    name: build
+   type: zip   
+   
+ - path: deps
+   name: deps
    type: zip
 

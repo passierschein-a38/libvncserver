@@ -65,4 +65,8 @@ build_script:
   - cmake --build .
   - ctest -C Debug --output-on-failure
 
+artifacts:
+ - path: build
+   name: build
+   type: zip
 
